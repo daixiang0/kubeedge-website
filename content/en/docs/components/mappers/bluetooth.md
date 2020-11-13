@@ -1,17 +1,14 @@
-+++
-title =  "Bluetooth"
-
-draft = false  # Is this a draft? true/false
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-
-# Add menu entry to sidebar.
-linktitle = "Bluetooth"
-[menu.docs]
-  parent = "mapper"
-  weight = 1
-+++
-
+---
+draft: false
+linktitle: Bluetooth
+menu:
+  docs:
+    parent: mapper
+    weight: 1
+title: Bluetooth
+toc: true
+type: docs
+---
 # Bluetooth Mapper
 
 

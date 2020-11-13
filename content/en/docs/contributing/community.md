@@ -1,18 +1,14 @@
-+++
-title =  "Community"
-
-draft = false  # Is this a draft? true/false
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-
-# Add menu entry to sidebar.
-linktitle = "Community Membership"
-[menu.docs]
-  parent = "contributing"
-  weight = 3 
-+++
-
-
+---
+draft: false
+linktitle: Community Membership
+menu:
+  docs:
+    parent: contributing
+    weight: 3
+title: Community
+toc: true
+type: docs
+---
 # KubeEdge Community Membership
 
 **Note :** This document keeps changing based on the status and feedback of KubeEdge Community.

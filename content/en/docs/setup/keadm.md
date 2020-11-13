@@ -1,17 +1,14 @@
-+++
-title =  "Keadm"
-
-draft = false  # Is this a draft? true/false
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-
-# Add menu entry to sidebar.
-linktitle = "Deploying using Keadm"
-[menu.docs]
-  parent = "setup"
-  weight = 1
-+++
-
+---
+draft: false
+linktitle: Deploying using Keadm
+menu:
+  docs:
+    parent: setup
+    weight: 1
+title: Keadm
+toc: true
+type: docs
+---
 # Deploying using Keadm
 
 Keadm is used to install the cloud and edge components of KubeEdge. It is not responsible for installing K8s and runtime.

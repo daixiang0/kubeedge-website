@@ -1,18 +1,14 @@
-+++
-title =  "Contributing"
-
-draft = false  # Is this a draft? true/false
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-
-# Add menu entry to sidebar.
-linktitle = "Contributing"
-[menu.docs]
-  parent = "contributing"
-  weight = 1
-+++
-
-
+---
+draft: false
+linktitle: Contributing
+menu:
+  docs:
+    parent: contributing
+    weight: 1
+title: Contributing
+toc: true
+type: docs
+---
 # Contributing
 
 ## Code of Conduct

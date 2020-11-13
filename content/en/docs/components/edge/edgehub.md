@@ -1,19 +1,14 @@
-+++
-title =  "EdgeHub"
-
-draft = false  # Is this a draft? true/false
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-
-# Add menu entry to sidebar.
-linktitle = "Edgehub"
-[menu.docs]
-  parent = "edge component"
-  weight = 4
-+++
-
-
-
+---
+draft: false
+linktitle: Edgehub
+menu:
+  docs:
+    parent: edge component
+    weight: 4
+title: EdgeHub
+toc: true
+type: docs
+---
 # EdgeHub
 
 ## Overview

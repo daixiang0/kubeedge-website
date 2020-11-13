@@ -1,18 +1,14 @@
-+++
-title =  "Edged"
-
-draft = false  # Is this a draft? true/false
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-
-# Add menu entry to sidebar.
-linktitle = "Edged"
-[menu.docs]
-  parent = "edge component"
-  weight = 1
-+++
-
-
+---
+draft: false
+linktitle: Edged
+menu:
+  docs:
+    parent: edge component
+    weight: 1
+title: Edged
+toc: true
+type: docs
+---
 # Edged
 
 ## Overview

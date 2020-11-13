@@ -1,18 +1,14 @@
-+++
-title =  "BluetoothE2e"
-
-draft = false  # Is this a draft? true/false
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-
-# Add menu entry to sidebar.
-linktitle = "Bluetooth Mapper E2E Test"
-[menu.docs]
-  parent = "developer guide"
-  weight = 1
-+++
-
-
+---
+draft: false
+linktitle: Bluetooth Mapper E2E Test
+menu:
+  docs:
+    parent: developer guide
+    weight: 1
+title: BluetoothE2e
+toc: true
+type: docs
+---
 # Bluetooth Mapper End to End Test Setup Guide
 
 The test setup required for running the end to end test of bluetooth mapper requires two separate machines in bluetooth range.
@@ -47,7 +43,3 @@ The test server created here is also using the paypal/gatt package.
  _sudo is required for getting hci control of the machine._
 
 This runs your test server which publishes data for the mapper to process.
-
-
-
-

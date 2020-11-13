@@ -1,17 +1,14 @@
-+++
-title = "Storage"
-
-draft = false  # Is this a draft? true/false
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-
-# Add menu entry to sidebar.
-linktitle = "Storage"
-[menu.docs]
-  parent = "configuration"
-  weight = 3
-+++
-
+---
+draft: false
+linktitle: Storage
+menu:
+  docs:
+    parent: configuration
+    weight: 3
+title: Storage
+toc: true
+type: docs
+---
 # KubeEdge Volume Support
 
 Consider use case at edge side, we only support following volume types, all of those are same as Kubernetes:

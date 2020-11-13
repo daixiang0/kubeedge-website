@@ -1,17 +1,14 @@
-+++
-title =  "Local"
-
-draft = false  # Is this a draft? true/false
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-
-# Add menu entry to sidebar.
-linktitle = "Deploying with binary"
-[menu.docs]
-  parent = "setup"
-  weight = 2
-+++
-
+---
+draft: false
+linktitle: Deploying with binary
+menu:
+  docs:
+    parent: setup
+    weight: 2
+title: Local
+toc: true
+type: docs
+---
 # Deploying Locally
 
 Deploying KubeEdge locally is used to test, never use this way in production environment.

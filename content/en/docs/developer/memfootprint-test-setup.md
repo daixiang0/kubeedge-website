@@ -1,18 +1,14 @@
-+++
-title =  "MemoryTest"
-
-draft = false  # Is this a draft? true/false
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-
-# Add menu entry to sidebar.
-linktitle = "Memory footprint Test"
-[menu.docs]
-  parent = "developer guide"
-  weight = 3
-+++
-
-
+---
+draft: false
+linktitle: Memory footprint Test
+menu:
+  docs:
+    parent: developer guide
+    weight: 3
+title: MemoryTest
+toc: true
+type: docs
+---
 # Measuring memory footprint of EdgeCore
 
 ## Why measure memory footprint?

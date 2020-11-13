@@ -1,17 +1,14 @@
-+++
-title =  "Beehive"
-
-draft = false  # Is this a draft? true/false
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-
-# Add menu entry to sidebar.
-linktitle = "Beehive"
-[menu.docs]
-  parent = "general component"
-  weight = 1
-+++
-
+---
+draft: false
+linktitle: Beehive
+menu:
+  docs:
+    parent: general component
+    weight: 1
+title: Beehive
+toc: true
+type: docs
+---
 # Beehive
 
 ## Beehive Overview
